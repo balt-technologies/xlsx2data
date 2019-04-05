@@ -1,0 +1,23 @@
+{
+  "name": "bur-gmbh/xlsx2data",
+  "authors": [
+    {
+      "name": "Tobias Redmann",
+      "email": "tr@besserdich-redmann.com"
+    }
+  ],
+  "require": {
+    "phpoffice/phpspreadsheet": "^1.6",
+    "cocur/slugify": "^3.2",
+    "splitbrain/php-cli": "^1.1",
+    "symfony/yaml": "^4.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "BUR\\": "src/"
+    },
+    "classmap": [
+      "src/"
+    ]
+  }
+}
