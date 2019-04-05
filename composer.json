@@ -9,7 +9,6 @@
   "require": {
     "phpoffice/phpspreadsheet": "^1.6",
     "cocur/slugify": "^3.2",
-    "splitbrain/php-cli": "^1.1",
     "symfony/yaml": "^4.2"
   },
   "autoload": {
