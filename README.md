@@ -26,16 +26,28 @@ If you don't pass a worksheet name the converter will use the active worksheet.
 To convert the Excel data to XMl use the `toXml` function.
 
     $converter->toXml();
+    
+You can also save the data directly using:
+
+    $converter->saveXml('output.xml');
 
 ### JSON
 
 To convert the Excel data to JSON use the following `toJson` function.
 
     $converter->toJson()
+    
+Save Json:
+
+    $converter->saveJson('output.json');
 
 ### YAML
 
-Save the Excel data as Yaml with the `toYaml` command.
+Get the Excel data as Yaml with the `toYaml` command.
     
     $converter->toYaml()
+    
+Save as Yaml
+
+    $converter->saveYaml('output.yaml');
 
